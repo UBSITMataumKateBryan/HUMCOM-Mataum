@@ -11,7 +11,33 @@
     <h3>Creating Forms</h3>
     <!-- add the form tag -->
     <form>
+        <!-- input type text -->
+        <table>
+    <tr>
         
+        <td><label>First Name: </label></td>
+        <td><input type="text" name="fname" placeholder="15 characters" /><br/></td>
+        <label>Last Name: </label><input type="text" name="lname" /><br/>
+    </tr>
+        <!-- input type password -->
+        <label>Password: </label><input type="password" name="pwd" /><br/>
+        <label>Date of Birth: </label><input type="date" name="dob" /><br/>
+        <label>Age: </label><input type="number" name="age" max="150" min="18" value="18" step="1" /><br/>
+        <label>Eye Color: </label><input type="color" name="ec" /><br/>
+        <!-- radio buttons -->
+        <label>Gender</label><br/>
+        <input type="radio" name="gen" value="Female" />Male<br/>
+        <input type="radio" name="gen" value="Male" />Female<br/>
+        <input type="radio" name="gen" value="I would rather not say" />I would rather not say<br/>
+        <!-- check box -->
+        <label>Food</label><br/>
+        <input type="checkbox" name="food" value="Pizza" />Pizza<br/>
+        <input type="checkbox" name="food" value="Pasta" />Pasta<br/>
+        <input type="checkbox" name="food" value="Burger" />Burger<br/>
+    <!-- other types in inputs
+    select
+    button -->
+    </table>
     </form>
 </body>
 </html>
