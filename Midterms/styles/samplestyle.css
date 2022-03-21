@@ -1,0 +1,28 @@
+body{
+    width: 85%;
+    margin:  auto 2%;
+    display: block;
+    box-sizing: border-box;
+    border: 1px;
+    border-radius: .6em;
+    background-image: url("../resources/imgs/thumb2.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: blueviolet;
+    background-color: blanchedalmond;
+    
+}
+h2{
+    padding-left: 5%;
+}
+.p-class{
+    text-indent: 5%;
+    line-height: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#uniqueH2{
+    text-decoration: wavy;
+    letter-spacing: 2em;
+}
