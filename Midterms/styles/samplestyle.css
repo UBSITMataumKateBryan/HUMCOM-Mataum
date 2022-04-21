@@ -1,0 +1,72 @@
+body{
+    width: 85%;
+    display: block;
+    margin: 25px auto; /* shorthand top-right-bottom-left */
+    box-sizing: border-box; /* always includes padding and margins in widths */
+    color: antiquewhite;
+    background-image: url("../resources/imgs/thumb2.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: blueviolet;
+    background-color: darkgray;
+    
+}
+h2, p{
+    padding-left: 5%;
+}
+.p-class{
+    text-indent: 5%;
+    line-height: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#uniqueH2{
+    text-decoration: wavy;
+    letter-spacing: 2em;
+}
+/* combinators */
+/* general sibling combinators */
+/* p~h4{
+    border-radius: 1px .6em;
+    background-color:  bisque;
+    color: blue;
+    margin: 12px;
+    padding: 10px;
+    display: block;
+    clear: both;
+} */
+/* adjacent sibling combinator A + B */
+.p-class + p{
+    border-radius: 1px .6em;
+    background-color:  bisque;
+    color: blue;
+    margin: 12px;
+    padding: 10px;
+    display: block;
+    clear: both;
+}
+/* styling a list */
+ul{
+    list-style: none;
+}
+ul>li{
+    display: inline-block;
+    background: crimson;
+    width: 120px;
+    text-align: center;
+    padding: 2px;
+}
+a{
+    text-decoration: none;
+}
+a:link, a:active{
+    color:pink;
+}
+li:hover{
+    background-color: antiquewhite;
+    color: aqua;
+}
+a:visited{
+    color: blueviolet;
+}

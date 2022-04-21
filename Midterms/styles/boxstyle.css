@@ -1,0 +1,26 @@
+body{
+    width: 90%;
+    display: block;
+    margin: 10% auto;
+    box-sizing: border-box;
+    background-color: green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container, header, .content, footer
+::-webkit-searcj-decoration{
+    width: 100%;
+    clear: both;
+    margin: 1% white solid;
+}
+header, footer{
+    max-height: 150px;
+}
+header>#logo, header>nav{
+    display: inline-block;
+    width: 15%;
+}
+header>nav{
+    width: 65%;
+}
+/* c1 and c3 25% width of parent c2 502 of parent */
